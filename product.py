@@ -1,7 +1,4 @@
-number_tuple = (2, 4, 6, 8, 10, 5)
-product = 1
+tuple1 = (2, 4, 6, 8, 10, 5)
+tuple2 = (1, 3, 5, 7, 9, 4)
 
-for i in number_tuple:
-    product = product * i
-
-print("the product is", str(product))
+print(tuple1 * tuple2)
